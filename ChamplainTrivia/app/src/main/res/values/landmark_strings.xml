@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_street">Which of these photos is located near Main Street?</string>
+    <string name="question_statue">Which photo is of a statue of Samuel de Champlain?</string>
+    <string name="question_aiken">Which photo is of Aiken lawn?</string>
+    <string name="question_quad">Which photo is of a statue of Samuel de Champlain?</string>
+    <string name="question_spinner">Which photo is of Spinner Place?</string>
+    <string name="question_idx">Which photo is of the IDX building?</string>
+    <string name="question_ccm">Which photo is of the CCM building?</string>
+    <string name="question_lake">Which photo is of lakeside?</string>
+    <string name="question_perry">Which photo is of Perry hall?</string>
+    <string name="question_miller">Which photo is of the library?</string>
+
+</resources>

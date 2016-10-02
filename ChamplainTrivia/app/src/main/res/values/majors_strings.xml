@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_csi">CSI</string>
+    <string name="question_core">Core</string>
+    <string name="question_psych">Psych</string>
+    <string name="question_ed">Early Ed</string>
+    <string name="question_fake1">Fake</string>
+    <string name="question_gamed">Game Design</string>
+    <string name="question_fake2"></string>
+    <string name="question_fake3"></string>
+    <string name="question_gamea">Game Art</string>
+    <string name="question_fake4"></string>
+
+</resources>

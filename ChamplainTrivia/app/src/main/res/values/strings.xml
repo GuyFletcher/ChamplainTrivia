@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Champlain Trivia</string>
+
+    <string name="cat_landmark">Champlain Landmarks</string>
+    <string name="cat_faculty">Champlain Faculty and Students</string>
+    <string name="cat_majors">Champlain Majors</string>
+</resources>
