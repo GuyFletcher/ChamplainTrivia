@@ -24,7 +24,7 @@ public class QuestionActivity extends AppCompatActivity {
     private ImageButton mChoice, mChoice2;
     private Button mChoice3, mChoice4, mChoice5,mChoice6,mChoice7, mChoice8,mChoice9,mChoice10,mNextButton;
     private TextView mQuestionTextView;
-    private int mCurrentIndex, mScore=0;
+    private int mCurrentIndex, mScore = 0;
     public static int mCategory;
     MediaPlayer mediaPlayer;
 
