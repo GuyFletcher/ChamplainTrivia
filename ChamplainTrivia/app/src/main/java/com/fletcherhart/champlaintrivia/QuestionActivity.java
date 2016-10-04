@@ -1302,7 +1302,7 @@ public class QuestionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_question);
 
         LinearLayout imageLL = (LinearLayout) findViewById(R.id.layout_image);
-        LinearLayout buttonLL = (LinearLayout) findViewById(R.id.layout_button);
+        LinearLayout buttonLL = (LinearLayout) findViewById(R.id.layout_strings);
         LinearLayout buttonLL2 = (LinearLayout) findViewById(R.id.layout_button2);
 
         if(mCategory == 0)
