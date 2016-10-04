@@ -290,15 +290,15 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("Brian Hall");
-            mChoice5.setOnClickListener(new View.OnClickListener() {
+            mChoice7.setText("Brian Hall");
+            mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(2);
                 }
             });
-            mChoice6.setText("Luke Skywalker");
-            mChoice6.setOnClickListener(new View.OnClickListener() {
+            mChoice8.setText("Luke Skywalker");
+            mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(3);
@@ -322,15 +322,15 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
-            mChoice5.setOnClickListener(new View.OnClickListener() {
+            mChoice7.setText("");
+            mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(2);
                 }
             });
-            mChoice6.setText("Don Laakman");
-            mChoice6.setOnClickListener(new View.OnClickListener() {
+            mChoice8.setText("Don Laakman");
+            mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(3);
@@ -354,15 +354,15 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
-            mChoice5.setOnClickListener(new View.OnClickListener() {
+            mChoice7.setText("");
+            mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(2);
                 }
             });
-            mChoice6.setText("WeiKian Chen & Brian Hall");
-            mChoice6.setOnClickListener(new View.OnClickListener() {
+            mChoice8.setText("WeiKian Chen & Brian Hall");
+            mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(3);
@@ -386,15 +386,15 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
-            mChoice5.setOnClickListener(new View.OnClickListener() {
+            mChoice7.setText("");
+            mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(2);
                 }
             });
-            mChoice6.setText("");
-            mChoice6.setOnClickListener(new View.OnClickListener() {
+            mChoice8.setText("");
+            mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(3);
@@ -418,15 +418,15 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
-            mChoice5.setOnClickListener(new View.OnClickListener() {
+            mChoice7.setText("");
+            mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(2);
                 }
             });
-            mChoice6.setText("Narine Hall");
-            mChoice6.setOnClickListener(new View.OnClickListener() {
+            mChoice8.setText("Narine Hall");
+            mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(3);
@@ -435,14 +435,17 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 6)
         {
-            mChoice3.setText("");
+            llA.setVisibility(View.VISIBLE);
+            llB.setVisibility(View.VISIBLE);
+
+            mChoice3.setText("Johny Bean");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(0);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Donald McGuiver");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -450,14 +453,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
+            mChoice5.setText("Superman");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(2);
                 }
             });
-            mChoice6.setText("");
+            mChoice6.setText("Son Goku");
             mChoice6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -465,14 +468,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("Wei Kian-Chen");
+            mChoice7.setText("Bobby Tables");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(4);
                 }
             });
-            mChoice8.setText("Tony Stark");
+            mChoice8.setText("Georgia O'Keefe");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -480,14 +483,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice9.setText("Will Smith");
+            mChoice9.setText("David Kopec");
             mChoice9.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(6);
                 }
             });
-            mChoice10.setText("Donald Trump");
+            mChoice10.setText("Logan Rice");
             mChoice10.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
