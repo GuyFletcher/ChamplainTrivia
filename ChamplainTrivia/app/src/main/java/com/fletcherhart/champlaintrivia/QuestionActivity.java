@@ -139,6 +139,7 @@ public class QuestionActivity extends AppCompatActivity {
         if(mCurrentIndex == 9) {
             Intent i = ScoreActivity.newIntent(QuestionActivity.this, mScore);
             startActivity(i);
+            finish();
         }
     }
 

@@ -35,6 +35,7 @@ public class ScoreActivity extends AppCompatActivity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scoreview);
+
         TextView text = (TextView) findViewById(R.id.help);
 
         System.out.println("Hello world");
