@@ -15,6 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.IOException;
+import java.util.Random;
 
 public class QuestionActivity extends AppCompatActivity {
 
@@ -32,14 +33,14 @@ public class QuestionActivity extends AppCompatActivity {
     private Question[] mQuestionBank = new Question[] {
             new Question(R.string.question_street, true),
             new Question(R.string.question_statue, true),
-            new Question(R.string.question_aiken, false),
-            new Question(R.string.question_quad, false),
+            new Question(R.string.question_aiken, true),
+            new Question(R.string.question_quad, true),
             new Question(R.string.question_spinner, true),
-            new Question(R.string.question_idx, false),
+            new Question(R.string.question_idx, true),
             new Question(R.string.question_ccm, true),
-            new Question(R.string.question_lake, false),
-            new Question(R.string.question_perry, false),
-            new Question(R.string.question_miller, false)
+            new Question(R.string.question_lake, true),
+            new Question(R.string.question_perry, true),
+            new Question(R.string.question_miller, true)
     };
 
     private Question[] mQuestionPeople = new Question[] {
@@ -113,8 +114,6 @@ public class QuestionActivity extends AppCompatActivity {
         }
 
 
-
-
         if (userChoice == answer) {
             mediaPlayer = MediaPlayer.create(this, R.raw.correct);
 
@@ -156,9 +155,14 @@ public class QuestionActivity extends AppCompatActivity {
         mNextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.length;
-                setImage();
-                updateQuestion();
+              if(mCurrentIndex == mQuestionBank.length - 1) {
+
+              }
+              else {
+                  mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.length;
+                  setImage();
+                  updateQuestion();
+              }
             }
         });
 
@@ -185,9 +189,14 @@ public class QuestionActivity extends AppCompatActivity {
             mNextButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    mCurrentIndex = (mCurrentIndex + 1) % mQuestionPeople.length;
-                    setPeopleQText();
-                    updateQuestion();
+                    if(mCurrentIndex == mQuestionPeople.length - 1) {
+
+                    }
+                    else {
+                        mCurrentIndex = (mCurrentIndex + 1) % mQuestionPeople.length;
+                        setPeopleQText();
+                        updateQuestion();
+                    }
                 }
             });
 
@@ -200,9 +209,14 @@ public class QuestionActivity extends AppCompatActivity {
             mNextButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    mCurrentIndex = (mCurrentIndex + 1) % mQuestionMajors.length;
-                    setMajorQText();
-                    updateQuestion();
+                    if(mCurrentIndex == mQuestionBank.length - 1) {
+
+                    }
+                    else {
+                        mCurrentIndex = (mCurrentIndex + 1) % mQuestionMajors.length;
+                        setMajorQText();
+                        updateQuestion();
+                    }
                 }
             });
 
