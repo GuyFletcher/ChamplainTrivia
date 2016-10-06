@@ -37,7 +37,7 @@ public class ScoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scoreview);
 
         TextView text = (TextView) findViewById(R.id.help);
+        text.setText("You guessed " + String.valueOf(finalScore) + " questions correctly!" );
 
-        System.out.println("Hello world");
     }
 }
