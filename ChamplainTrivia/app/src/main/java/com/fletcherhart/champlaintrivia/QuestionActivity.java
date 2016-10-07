@@ -367,8 +367,6 @@ public class QuestionActivity extends AppCompatActivity {
                     mChoice3.setEnabled(false);
                 }
             });
-
-            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -407,7 +405,6 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -445,8 +442,6 @@ public class QuestionActivity extends AppCompatActivity {
                     mChoice8.setEnabled(false);
                 }
             });
-
-            mChoice3.setText("");
 
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -486,8 +481,6 @@ public class QuestionActivity extends AppCompatActivity {
                     mChoice3.setEnabled(false);
                 }
             });
-
-            mChoice3.setText("");
 
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -597,7 +590,6 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -667,7 +659,6 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -738,7 +729,6 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
