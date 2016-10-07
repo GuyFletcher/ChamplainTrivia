@@ -15,7 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.IOException;
-import java.util.Random;
+import java.util.*;
 
 public class QuestionActivity extends AppCompatActivity {
 
@@ -23,12 +23,13 @@ public class QuestionActivity extends AppCompatActivity {
             "com.fletcher.QUESTIONS";
 
     private ImageButton mChoice, mChoice2;
-    private Button mChoice3, mChoice4, mChoice5,mChoice6,mChoice7, mChoice8,mChoice9,mChoice10, mNextButton;
+    private Button mChoice3, mChoice4, mChoice5,mChoice6,mChoice7, mChoice8,mChoice9,mChoice10, mNextButton, mHint;
     private TextView mQuestionTextView;
     private int mCurrentIndex, mScore = 0;
     public static int mCategory;
     private boolean peopleAnswer = false;
     MediaPlayer mediaPlayer;
+    ArrayList<View> touchables;
 
     private Question[] mQuestionBank = new Question[] {
             new Question(R.string.question_street, true),
@@ -181,6 +182,11 @@ public class QuestionActivity extends AppCompatActivity {
         mChoice8 = (Button)findViewById(R.id.button8);
         mChoice9 = (Button)findViewById(R.id.button9);
         mChoice10 = (Button)findViewById(R.id.button10);
+        mHint = (Button)findViewById(R.id.hint_button);
+
+        LinearLayout ln = (LinearLayout) findViewById(R.id.linear);
+        touchables = ln.getTouchables();
+
 
         if(mCategory == 1)
         {
@@ -196,6 +202,13 @@ public class QuestionActivity extends AppCompatActivity {
                         mCurrentIndex = (mCurrentIndex + 1) % mQuestionPeople.length;
                         setPeopleQText();
                         updateQuestion();
+
+                        for(View touchable : touchables)
+                        {
+                            if(touchable instanceof Button) {
+                                ((Button) touchable).setEnabled(true);
+                            }
+                        }
                     }
                 }
             });
@@ -249,6 +262,13 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice4.setEnabled(false);
+                }
+            });
+
             mChoice5.setText("Bernie Sanders");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -299,6 +319,13 @@ public class QuestionActivity extends AppCompatActivity {
             llA.setVisibility(View.GONE);
             llB.setVisibility(View.GONE);
 
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice7.setEnabled(false);
+                }
+            });
+
             mChoice3.setText("John Baptist");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -332,6 +359,14 @@ public class QuestionActivity extends AppCompatActivity {
         else if (mCurrentIndex == 2)
         {
             mChoice3.setText("Peter Baelish");
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice3.setEnabled(false);
+                }
+            });
+
+            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -364,6 +399,15 @@ public class QuestionActivity extends AppCompatActivity {
         else if (mCurrentIndex == 3)
         {
             mChoice3.setText("Michael Jackson");
+
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice4.setEnabled(false);
+                }
+            });
+
+            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -396,6 +440,16 @@ public class QuestionActivity extends AppCompatActivity {
         else if (mCurrentIndex == 4)
         {
             mChoice3.setText("Fletcher Hart");
+
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice8.setEnabled(false);
+                }
+            });
+
+            mChoice3.setText("");
+
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -427,7 +481,18 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 5)
         {
+
             mChoice3.setText("Spiderman");
+
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice3.setEnabled(false);
+                }
+            });
+
+            mChoice3.setText("");
+
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -461,6 +526,13 @@ public class QuestionActivity extends AppCompatActivity {
         {
             llA.setVisibility(View.VISIBLE);
             llB.setVisibility(View.VISIBLE);
+
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice9.setEnabled(false);
+                }
+            });
 
             mChoice3.setText("Johny Bean");
             mChoice3.setOnClickListener(new View.OnClickListener() {
@@ -524,7 +596,16 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 7)
         {
+
             mChoice3.setText("Lou Ferrigno");
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice4.setEnabled(false);
+                }
+            });
+
+            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -586,7 +667,17 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 8)
         {
+
             mChoice3.setText("Leonardo Da Vinci");
+
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice4.setEnabled(false);
+                }
+            });
+
+            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -652,6 +743,14 @@ public class QuestionActivity extends AppCompatActivity {
             llB.setVisibility(View.GONE);
 
             mChoice3.setText("Rally the Catamount");
+            mHint.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mChoice3.setEnabled(false);
+                }
+            });
+
+            mChoice3.setText("");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
