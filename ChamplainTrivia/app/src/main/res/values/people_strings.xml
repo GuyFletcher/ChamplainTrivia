@@ -3,12 +3,12 @@
     <string name="question_me">Who made this app?</string>
     <string name="question_prof">What is our professors name?</string>
     <string name="question_laak">Who is the college president?</string>
-    <string name="question_wei">Who is the head of the ITS?</string>
+    <string name="question_wei">Which of these people works in comp sci?</string>
     <string name="question_bhall">Which of these people works in comp sci?</string>
     <string name="question_nhall">Which of these people works in comp sci?</string>
     <string name="question_sga">Who is the student SGA president?</string>
     <string name="question_samuel">Who is the namesake of our college?</string>
-    <string name="question_test"> </string>
-    <string name="question_test2"> </string>
+    <string name="question_test">Who was the president before Laakman?</string>
+    <string name="question_test2">What is the name of our mascot?</string>
 
 </resources>

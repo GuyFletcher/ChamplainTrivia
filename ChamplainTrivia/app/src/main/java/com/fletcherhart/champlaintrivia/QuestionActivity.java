@@ -331,14 +331,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 2)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Peter Baelish");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Jonah Allibone");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -346,7 +346,7 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Morgan Donnell");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -363,14 +363,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 3)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Michael Jackson");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Santa Claus");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -378,7 +378,7 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Frank Sinatra");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -395,7 +395,7 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 4)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Fletcher Hart");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -410,14 +410,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Guillermo del Toro");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Steven Spielberg");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -427,14 +427,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 5)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Spiderman");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Master Splinter");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -442,7 +442,7 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Will Farrell");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -524,14 +524,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 7)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Lou Ferrigno");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Christopher Colombus");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -539,14 +539,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
+            mChoice5.setText("Marshel Hindenburg");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice6.setText("");
+            mChoice6.setText("George Washington");
             mChoice6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -554,14 +554,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Abraham Lincoln");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Karl Marx");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -576,7 +576,7 @@ public class QuestionActivity extends AppCompatActivity {
                     checkAnswer(true);
                 }
             });
-            mChoice10.setText("");
+            mChoice10.setText("Alexander the Great");
             mChoice10.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -586,14 +586,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 8)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Leonardo Da Vinci");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Sarah Q. Dalton");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -601,14 +601,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
+            mChoice5.setText("Corey Daniels");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice6.setText("");
+            mChoice6.setText("Hillary Clinton");
             mChoice6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -616,14 +616,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Michael Fassbender");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Jeffery Dahmers");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -631,14 +631,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice9.setText("ANSWER");
+            mChoice9.setText("David Finney");
             mChoice9.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(true);
                 }
             });
-            mChoice10.setText("");
+            mChoice10.setText("He was always president");
             mChoice10.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -651,14 +651,14 @@ public class QuestionActivity extends AppCompatActivity {
             llA.setVisibility(View.GONE);
             llB.setVisibility(View.GONE);
 
-            mChoice3.setText("");
+            mChoice3.setText("Rally the Catamount");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("ANSWER");
+            mChoice4.setText("Chauncey T. Beaver");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -666,14 +666,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
+            mChoice5.setText("Bully the Bulldog");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice6.setText("");
+            mChoice6.setText("Irish Rhino");
             mChoice6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -744,7 +744,7 @@ public class QuestionActivity extends AppCompatActivity {
                     checkAnswer(false);
                 }
             });
-            mChoice10.setText("");
+            mChoice10.setText("African Studies");
             mChoice10.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -757,14 +757,14 @@ public class QuestionActivity extends AppCompatActivity {
             llA.setVisibility(View.GONE);
             llB.setVisibility(View.GONE);
 
-            mChoice3.setText("");
+            mChoice3.setText("Accounting");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Computer Science");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -779,7 +779,7 @@ public class QuestionActivity extends AppCompatActivity {
                     checkAnswer(true);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Film Making");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -789,14 +789,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 2)
         {
-            mChoice3.setText("ANSWER");
+            mChoice3.setText("Psychology");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(true);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Animal Science");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -804,14 +804,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Art History");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Biochemistry");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -821,14 +821,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 3)
         {
-            mChoice3.setText("ANSWER");
+            mChoice3.setText("Elementary Teacher Education");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(true);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Civil Engineering");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -836,14 +836,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Counseling");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Exercise and Movement Education");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -853,14 +853,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 4)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Data Analytics");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("ANSWER");
+            mChoice4.setText("European Studies");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -868,14 +868,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Criminal Justice");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Filmmaking");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -885,14 +885,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 5)
         {
-            mChoice3.setText("ANSWER");
+            mChoice3.setText("Game Design");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(true);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Plant Biology");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -900,14 +900,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("French");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Geology");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -920,14 +920,14 @@ public class QuestionActivity extends AppCompatActivity {
             llA.setVisibility(View.VISIBLE);
             llB.setVisibility(View.VISIBLE);
 
-            mChoice3.setText("");
+            mChoice3.setText("Marketing");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Digital Forensics");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -935,14 +935,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
+            mChoice5.setText("Creative Media");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice6.setText("");
+            mChoice6.setText("Computer Science");
             mChoice6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -950,14 +950,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("ANSWER");
+            mChoice7.setText("Gerontology");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(true);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Professional Writing");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -965,14 +965,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice9.setText("");
+            mChoice9.setText("Psychology");
             mChoice9.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice10.setText("");
+            mChoice10.setText("Radiography");
             mChoice10.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -982,14 +982,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 7)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Marketing");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Graphic Design");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -997,14 +997,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
+            mChoice5.setText("Law");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice6.setText("");
+            mChoice6.setText("Psychology");
             mChoice6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -1012,14 +1012,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("ANSWER");
+            mChoice7.setText("Linguistics");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(true);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Managment and Innovation");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -1027,14 +1027,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice9.setText("");
+            mChoice9.setText("Finance");
             mChoice9.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice10.setText("");
+            mChoice10.setText("Creative Media");
             mChoice10.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -1044,14 +1044,14 @@ public class QuestionActivity extends AppCompatActivity {
         }
         else if (mCurrentIndex == 8)
         {
-            mChoice3.setText("");
+            mChoice3.setText("Music");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Religion");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -1059,14 +1059,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
+            mChoice5.setText("Molecular Genetics");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice6.setText("");
+            mChoice6.setText("Sociology");
             mChoice6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -1074,14 +1074,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice7.setText("");
+            mChoice7.setText("Microbiology");
             mChoice7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice8.setText("");
+            mChoice8.setText("Mechanical Engineering");
             mChoice8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -1089,14 +1089,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice9.setText("ANSWER");
+            mChoice9.setText("Game Art and Animation");
             mChoice9.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(true);
                 }
             });
-            mChoice10.setText("");
+            mChoice10.setText("Japanese");
             mChoice10.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -1109,14 +1109,14 @@ public class QuestionActivity extends AppCompatActivity {
             llA.setVisibility(View.GONE);
             llB.setVisibility(View.GONE);
 
-            mChoice3.setText("ANSWER");
+            mChoice3.setText("Vermont Studies");
             mChoice3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(true);
                 }
             });
-            mChoice4.setText("");
+            mChoice4.setText("Game Programming");
             mChoice4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -1124,14 +1124,14 @@ public class QuestionActivity extends AppCompatActivity {
                 }
             });
 
-            mChoice5.setText("");
+            mChoice5.setText("International Business");
             mChoice5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     checkAnswer(false);
                 }
             });
-            mChoice6.setText("");
+            mChoice6.setText("Communication");
             mChoice6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
