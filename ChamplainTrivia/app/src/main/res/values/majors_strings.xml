@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="question_csi">CSI</string>
-    <string name="question_core">Core</string>
-    <string name="question_psych">Psych</string>
-    <string name="question_ed">Early Ed</string>
-    <string name="question_fake1">Fake</string>
-    <string name="question_gamed">Game Design</string>
-    <string name="question_fake2"></string>
-    <string name="question_fake3"></string>
-    <string name="question_gamea">Game Art</string>
-    <string name="question_fake4"></string>
+    <string name="question_csi">Which of these is a major at Champlain?</string>
+    <string name="question_core">Which of these is a mandatory curriculum for all students?</string>
+    <string name="question_psych">Which of these is a major at Champlain?</string>
+    <string name="question_ed">Which of these is a major at Champlain?</string>
+    <string name="question_fake1">Which of these is NOT a major at Champlain?</string>
+    <string name="question_gamed">Which of these is a major at Champlain?</string>
+    <string name="question_fake2">Which of these is NOT a major at Champlain?</string>
+    <string name="question_fake3">Which of these is NOT a major at Champlain?</string>
+    <string name="question_gamea">Which of these is a major at Champlain?</string>
+    <string name="question_fake4">Which of these is NOT a major at Champlain?</string>
 
 </resources>
